@@ -1,0 +1,258 @@
+.bg {
+    background-color: #192149;  
+}
+
+#logo {
+    width: 80px;
+    height: 50px;
+    margin: 5px 0 0 20px;
+    position: absolute;
+    left:0;
+
+}
+
+#menu {
+    background-color: #090d22;
+    color: #ebebeb;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    border-radius: 10px;
+    word-spacing: 30px;
+}
+
+.btn {
+    background-color: #505a8a;
+    border-radius: 20px;
+    border: 1px solid #505a8a;
+    width: 100px;
+    height: 25px;
+    right: 15px;
+    position: absolute;
+    margin: 10px;
+    font-weight: bolder;
+}
+.btn:hover{
+  background-color: #e6d2d2;
+  border-color: #ebebeb;
+}
+
+#hero{
+    height: 100vh;
+    background: linear-gradient(to top, #020827, #030924, #192149);
+    border-radius: 5px;
+    border: #3c446d;
+    align-items: center;
+    color: #fff; 
+}
+
+h3 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+}
+.gradient{
+    background: linear-gradient(to right, #3439b3, #534a7d , #c369c3);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: px 0px 20px #293985;
+}
+
+#tagline{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;               
+    margin-top: -23px; 
+}
+.view
+{
+  background-color: #121c50;
+  color: #ccc;
+  font-weight: bold;
+  border: 1px solid #121c50;
+  border-radius: 20px;
+  height: 30px;
+  width: 140px;  
+}         
+
+.view:hover{
+  background-color: #ebebeb;
+  color: #090d22;
+}
+.start{
+    background-color: rgb(88, 114, 136);
+    border: 1px solid #121c50;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;  
+} 
+
+.start:hover{
+  background-color: #243487;
+  color: #ccc;
+}
+.proof{
+gap: 40px;
+display: flex;
+color: #fff;
+margin-left: 40px;
+margin-top: 10px;
+margin-bottom: 10px;
+justify-content: center;
+height: auto;
+width: auto;
+
+}
+
+.proof h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.proof p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    opacity: 30%;
+}
+
+#p{
+margin-left: 550px;
+margin-top: 20px;
+font-family: cursive;
+font-size: large;
+color: #293985;
+}
+
+.services-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#p {
+  font-size: 35px;
+  color: #172698;
+  font-weight:bolder ;
+  margin: 20px;
+  font-family:'Poppins', sans-serif; 
+}
+
+.services {
+  display: flex;
+  justify-content: center;   
+  align-items: flex-start;  
+  gap: 25px;                      
+}
+
+.service:hover {
+  box-shadow: 0 0 15px rgba(108,122,224,0.6); 
+  transform: scale(0.90);
+  cursor: pointer;
+}
+
+
+
+.service {
+  background-color: rgb(14, 21, 36);
+  border: 2px solid #121c50;
+  border-radius: 20px;
+  padding: 15px;
+  width: 250px;
+  font-size: 15px;
+  height: 185px;
+  box-sizing: border-box;
+}
+.service p{
+    opacity: 50%;
+}
+
+.footer {
+  background-color: #020827;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer h2 {
+  color: #061373;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  margin: 5px 0 15px;
+  font-size: 14px;
+}
+
+.footer form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #0e185d;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ccc;
+}
+
+.footer button {
+  background-color: #162280;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.footer button:hover {
+  background-color: #801b33;
+}
+
+.footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.footer .social a {
+  color: #7379a2;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social a:hover {
+  color: #6c7ae0;
+}
+
+.footer p{
+  font-size: 13px;
+  margin-top: 20px;
+  color: #888;
+}
